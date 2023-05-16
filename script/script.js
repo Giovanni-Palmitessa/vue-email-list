@@ -15,7 +15,7 @@ const app = Vue.createApp({
     },
 
     created() {
-        
+        this.genereteEmails();
     }
 });
 
