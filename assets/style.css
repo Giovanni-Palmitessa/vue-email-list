@@ -3,3 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+#app{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
