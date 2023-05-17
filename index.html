@@ -13,7 +13,7 @@
 </head>
 <body>
     <div id="app">
-        <ul>
+        <ul v-if="randomEmails.length == 10">
             <li v-for="emails in randomEmails">{{ emails }}</li>
         </ul>
         <button @click="generateEmails">Dammi altre email</button>
